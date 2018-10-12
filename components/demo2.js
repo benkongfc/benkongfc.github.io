@@ -1,3 +1,3 @@
-jqcModules.content = {
+jqcModules.demo2 = {
     	word : "Hello World!"
     }
