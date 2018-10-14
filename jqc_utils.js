@@ -1,8 +1,4 @@
 window.err_log = function(log) {if(0)console.log(log);};
-{
-    var isArray = Array.isArray;
-    var keyList = Object.keys;
-    var hasProp = Object.prototype.hasOwnProperty;
 
 function extend(from, to)
 {
