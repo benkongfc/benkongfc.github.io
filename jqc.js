@@ -30,17 +30,6 @@
             if(jqcDatas[nodeId].init) jqcDatas[nodeId].init();
             err_log(jqcDatas[nodeId]);
             
-            //buggy, disabled
-            /*if(false && !jqcDatas[nodeId].jqcNoCache && jqcDatas['clone_'+nodeId] && deepEqual(jqcDatas[nodeId], jqcDatas['clone_'+nodeId])){
-                err_log("link " + nodeId);
-                if(parent_obj[0] != jqcDatas['clone_'+nodeId].parent_obj[0]) {
-                    parent_obj.children().detach();
-                    parent_obj.append(jqcDatas['clone_'+nodeId].parent_obj.children()); 
-                    jqcDatas['clone_'+nodeId].parent_obj = jqcDatas[nodeId].parent_obj = parent_obj;
-                }
-                return;
-            }*/
-            
             err_log('loop ' + nodeId);
             
             var node = $(html); //data is old but always rebuild html
