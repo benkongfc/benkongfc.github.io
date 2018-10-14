@@ -1,7 +1,7 @@
 jqcModules.demo3 = {
 	word : "Hello World!",
 	
-	changWord : function(word){
+	changeWord : function(word){
 	  this.word = word;   
 	}
 }
