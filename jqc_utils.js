@@ -1,3 +1,8 @@
+/*
+https://github.com/benkongfc/jQuery-Component
+License GPL
+
+*/
 window.err_log = function(log) {if(0)console.log(log);};
 
 function extend(from, to)
